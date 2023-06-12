@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.content-all {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  background-color: rgb(245, 220, 187);
+}
+/* CSS cho phần header */
+.container-1 {
+  width: 40%;
+  background-color: white;
+  border-radius: 20px;
+  justify-content: center;
+  margin-left: 25%;
+}
+.header {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header ul {
+  text-align: center;
+}
+
+.header ul li {
+  list-style: none;
+  padding: 15px 0;
+}
+.header ul li a {
+  text-decoration: none;
+}
+
+.main {
+  width: 60%;
+}
+.footer {
+  width: 25%;
+}
+
+/* CSS cho phần main */
+.main {
+  display: flex;
+  align-items: center;
+}
+.container-2 {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.content .button button {
+  padding: 8px 16px;
+  background-color: rgb(196, 82, 24);
+  border: none;
+  border-radius: 2px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+}
+.content p {
+  color: rgb(78, 77, 77);
+}
+
+/* CSS cho phần footer */
+.footer {
+  padding-top: 10px;
+  background-color: black;
+  color: aliceblue;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer ul li {
+  list-style: none;
+  padding: 5px;
+}
+.footer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: solid 8px rgb(79, 41, 41);
+}
+.content-menu {
+  text-align: center;
+  padding: 10px;
+}
+.content-menu button {
+  padding: 10px 20px;
+  background-color: black;
+  border: solid 1px crimson;
+  color: white;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+.content-menu p {
+  margin: 10px 0;
+}
